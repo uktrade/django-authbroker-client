@@ -1,6 +1,6 @@
 import os
 from setuptools import find_packages, setup
-from core.version import __version__
+from authbroker_client.version import __version__
 
 with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
     README = readme.read()
